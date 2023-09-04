@@ -30,4 +30,4 @@ app.post('/insert', function (req, res) {
   const jsonData = fs.writeFileSync('./test.json', JSON.stringify(req));
   res.send('성공');
 })
-app.listen(3030)
+app.listen(3000)
